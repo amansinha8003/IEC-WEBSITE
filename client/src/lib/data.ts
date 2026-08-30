@@ -240,6 +240,5 @@ export const footerLinks = {
   ],
   'Resources': [
     { label: 'Programs', href: '#services-page' },
-    { label: 'FAQs', href: '#contact' },
   ],
 };
