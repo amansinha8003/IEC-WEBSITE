@@ -11,3 +11,6 @@ build
 # Large raw camera files
 *.CR2
 *.cr2
+
+.vercel
+.env*
