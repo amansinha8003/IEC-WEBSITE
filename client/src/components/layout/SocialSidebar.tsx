@@ -21,7 +21,7 @@ const socials = [
   },
   {
     label: 'WhatsApp',
-    href: 'https://wa.me/912610000000',
+    href: 'https://chat.whatsapp.com/EadHIdVERNO6vdhH07tkjT',
     bg: '#25D366',
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
