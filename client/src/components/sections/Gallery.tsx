@@ -17,6 +17,22 @@ const galleryImages = [
   { src: '/images/group.jpg', alt: 'Event 11' },
   { src: '/images/sir.jpg', alt: 'Event 12' },
   { src: '/images/event-2.jpg', alt: 'Event 13' },
+  { src: '/images/EK5A3705.JPG', alt: 'Gallery Image' },
+  { src: '/images/IMG_20260825_094315.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_20260825_095307.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_20260825_104836.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_20260825_105447.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_20260825_115829.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_20260825_144859.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_20260825_151858.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6902.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6943.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6954.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6955.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6958.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6960.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6963.jpg', alt: 'Gallery Image' },
+  { src: '/images/IMG_6990.jpg', alt: 'Gallery Image' },
 ];
 
 export default function Gallery() {
