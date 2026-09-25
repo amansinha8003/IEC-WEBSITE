@@ -185,7 +185,7 @@ export const mentorBoard = [
 
 export const ebcCoreMembers = [
   { name: 'Viraam Gohil', role: 'President', image: '/images/viraam.jpg' },
-  { name: 'Yug Rojivadiya', role: 'Incharge President', image: '/images/Yug.jpg' },
+  { name: 'Yug Rojivadiya', role: 'Incharge President', image: '/images/Yug.png' },
   { name: 'Akshay Hariyani', role: 'Core Member', image: '/images/Akshay.png' },
   { name: 'Pranjal Mer', role: 'Core Member', image: '/images/pranjal.jpg' },
   { name: 'Aman Sinha', role: 'Core Member', image: '/images/Aman%20Sinha.jpeg' },
