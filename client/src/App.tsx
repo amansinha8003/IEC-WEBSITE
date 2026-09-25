@@ -16,7 +16,6 @@ import Partners from '@/components/sections/Partners';
 import Speakers from '@/components/sections/Speakers';
 
 import SocialSidebar from '@/components/layout/SocialSidebar';
-import StartupsPage from '@/pages/StartupsPage';
 import ServicesPage from '@/pages/ServicesPage';
 import JourneyPage from '@/pages/JourneyPage';
 import SubmitIdeaPage from '@/pages/SubmitIdeaPage';
@@ -27,7 +26,6 @@ export default function App() {
   useEffect(() => {
     const checkHash = () => {
       if (
-        window.location.hash === '#startups-page' ||
         window.location.hash === '#services-page' ||
         window.location.hash === '#journey-page' ||
         window.location.hash === '#submit-idea-page'
@@ -43,7 +41,6 @@ export default function App() {
   }, []);
 
   const renderPage = () => {
-    if (activePage === '#startups-page') return <StartupsPage />;
     if (activePage === '#services-page') return <ServicesPage />;
     if (activePage === '#journey-page') return <JourneyPage />;
     if (activePage === '#submit-idea-page') return <SubmitIdeaPage />;

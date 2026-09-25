@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail, MapPin, Phone } from 'lucide-react';
+import { ArrowUpRight, Mail, MapPin } from 'lucide-react';
 import { siteConfig, footerLinks } from '@/lib/data';
 
 export default function Footer() {
@@ -97,10 +97,6 @@ export default function Footer() {
                 <a href={`mailto:${siteConfig.email}`} className="text-canvas/50 hover:text-white transition-colors">
                   {siteConfig.email}
                 </a>
-              </div>
-              <div className="flex items-center gap-3">
-                <Phone className="w-4 h-4 text-accent-red flex-shrink-0" />
-                <span className="text-canvas/50">{siteConfig.phone}</span>
               </div>
             </div>
           </div>

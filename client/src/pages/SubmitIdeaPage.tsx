@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { UploadCloud, ArrowLeft, ArrowRight, CheckCircle2, Rocket, TrendingUp, Users } from 'lucide-react';
+import { UploadCloud, ArrowLeft, ArrowRight, CheckCircle2, Lightbulb, ShieldCheck, ExternalLink } from 'lucide-react';
 
 export default function SubmitIdeaPage() {
   const [step, setStep] = useState(0); 
@@ -94,46 +94,42 @@ export default function SubmitIdeaPage() {
             <h2 className="text-2xl font-bold text-gray-900">What type of support do you need?</h2>
           </div>
 
-          <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
-            {/* Card 1 */}
+          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+            {/* Card 1: PoC/Prototype */}
             <div className="bg-white rounded-2xl p-8 flex flex-col items-center text-center shadow-lg hover:shadow-xl transition-all border border-gray-100 group">
               <div className="h-48 flex items-center justify-center mb-6">
-                <Rocket className="w-32 h-32 text-gray-800 group-hover:text-[#c23a22] transition-colors" />
+                <Lightbulb className="w-32 h-32 text-gray-800 group-hover:text-[#c23a22] transition-colors" />
               </div>
-              <h3 className="text-xl font-bold text-gray-600 mb-6">Incubation Program</h3>
-              <button onClick={() => handleSelectProgram('Incubation Program')} className="bg-[#c23a22] hover:bg-[#a02c18] text-white px-6 py-2.5 rounded text-sm font-bold mb-6 transition-colors shadow-md">
-                Click Here to Apply!
-              </button>
+              <h3 className="text-xl font-bold text-gray-600 mb-6">PoC / Prototype</h3>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSdymJZe9SEnzUGLHK0DB8zqqcePA3wMOJ2UKxbLfgkOfu5eRQ/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#c23a22] hover:bg-[#a02c18] text-white px-6 py-2.5 rounded text-sm font-bold mb-6 transition-colors shadow-md inline-flex items-center gap-2"
+              >
+                SSIP-Project Registration Form <ExternalLink className="w-4 h-4" />
+              </a>
               <p className="text-[13px] text-gray-900 leading-relaxed font-medium">
-                The PPSU <span className="font-bold">Incubation Program</span> Assists Beginners In The Idea Stage To Kickstart Their Startup Idea. We Provide Support And Guidance To Transform Ideas Into Successful Ventures.
+                Support for students and innovators to develop <span className="font-bold">Proof of Concept (PoC)</span> and prototypes under SSIP with funding, technical, and mentoring assistance.
               </p>
             </div>
 
-            {/* Card 2 */}
+            {/* Card 2: IP Support */}
             <div className="bg-white rounded-2xl p-8 flex flex-col items-center text-center shadow-lg hover:shadow-xl transition-all border border-gray-100 group">
               <div className="h-48 flex items-center justify-center mb-6">
-                <TrendingUp className="w-32 h-32 text-gray-800 group-hover:text-[#c23a22] transition-colors" />
+                <ShieldCheck className="w-32 h-32 text-gray-800 group-hover:text-[#c23a22] transition-colors" />
               </div>
-              <h3 className="text-xl font-bold text-gray-600 mb-6">Growth Pad Program</h3>
-              <button onClick={() => handleSelectProgram('Growth Pad Program')} className="bg-[#c23a22] hover:bg-[#a02c18] text-white px-6 py-2.5 rounded text-sm font-bold mb-6 transition-colors shadow-md">
-                Learn More!
-              </button>
+              <h3 className="text-xl font-bold text-gray-600 mb-6">IP Support</h3>
+              <a
+                href="https://docs.google.com/forms/u/5/d/e/1FAIpQLSc0QLpOzuZ3QAM2r1gt5VSV8RApH1fAJSRjLR8SGSqBG_Qcag/viewform?usp=send_form"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-[#c23a22] hover:bg-[#a02c18] text-white px-6 py-2.5 rounded text-sm font-bold mb-6 transition-colors shadow-md inline-flex items-center gap-2"
+              >
+                Click Here to Apply <ExternalLink className="w-4 h-4" />
+              </a>
               <p className="text-[13px] text-gray-900 leading-relaxed font-medium">
-                The <span className="font-bold">Growth Pad</span> Initiative Is Tailored For Startups In The Product Stage, Ready To Enter The Market. We Offer Targeted Support And Guidance To Accelerate The Growth And Success Of These Ventures.
-              </p>
-            </div>
-
-            {/* Card 3 */}
-            <div className="bg-white rounded-2xl p-8 flex flex-col items-center text-center shadow-lg hover:shadow-xl transition-all border border-gray-100 group">
-              <div className="h-48 flex items-center justify-center mb-6">
-                <Users className="w-32 h-32 text-gray-800 group-hover:text-[#c23a22] transition-colors" />
-              </div>
-              <h3 className="text-xl font-bold text-gray-600 mb-6">Need Based Support</h3>
-              <button onClick={() => handleSelectProgram('Need Based Support')} className="bg-[#c23a22] hover:bg-[#a02c18] text-white px-6 py-2.5 rounded text-sm font-bold mb-6 transition-colors shadow-md">
-                Click Here to Apply
-              </button>
-              <p className="text-[13px] text-gray-900 leading-relaxed font-medium">
-                The <span className="font-bold">Need-Based Support</span> Program Is Designed Specifically For Startups Already In The Market. We Offer Tailored Assistance To Address Specific Needs And Enhance Their Growth Trajectory.
+                Comprehensive <span className="font-bold">Intellectual Property</span> filing assistance including patent search, drafting, trademark, and copyright support for university innovations.
               </p>
             </div>
           </div>

@@ -1,0 +1,9 @@
+node_modules
+.git
+client/dist
+server/uploads
+project.md
+replace_light.js
+replace_theme.js
+*.CR2
+*.cr2

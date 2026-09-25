@@ -221,14 +221,12 @@ export const navItems = [
   { label: 'About', href: '#about' },
   { label: 'Team', href: '#team' },
   { label: 'Contact', href: '#contact' },
-  { label: 'Startups', href: '#startups-page' },
 ];
 
 export const footerLinks = {
   'Ecosystem': [
     { label: 'About Us', href: '#about' },
     { label: 'Innovation', href: '#services-page' },
-    { label: 'Startups', href: '#startups-page' },
     { label: 'IPR Support', href: 'mailto:ssip@ppsu.ac.in?subject=IPR%20Support' },
     { label: 'Incubation', href: '#submit-idea-page' },
   ],
